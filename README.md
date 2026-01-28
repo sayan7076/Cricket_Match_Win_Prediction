@@ -71,3 +71,43 @@ The following regression models are used to predict the IPL match scores:
 ●	After evaluating the models, it was found that Linear Regression outperformed other models, with the lowest error metrics.
 
 
+
+## 5. Model Optimization with AdaBoost
+### 5.1 AdaBoost with Linear Regression
+●	The AdaBoost algorithm is applied to the Linear Regression model to improve its performance. However, it did not significantly reduce the error compared to the base Linear Regression model.
+
+### 5.2 Final Model Selection
+●	Linear Regression is chosen as the final model due to its simplicity and better performance compared to other models.
+
+
+
+## 6. Predictions
+### 6.1 Predicting IPL Scores
+The final model (Linear Regression) is used to predict the total score of a team at the end of their innings for various matches in IPL seasons 11 and 12 (2018-2019). The prediction function takes the following inputs:
+●	Batting team
+
+●	Bowling team
+
+●	Overs
+
+●	Runs scored
+
+●	Wickets taken
+
+●	Runs in the last 5 overs
+
+●	Wickets in the last 5 overs
+
+### 6.2 Example Predictions
+The model makes predictions for various matches in IPL seasons 11 and 12, such as:
+1.	Kolkata Knight Riders vs. Delhi Daredevils (2018, Match 13)
+○	Predicted score: 200/9
+2.	Sunrisers Hyderabad vs. Royal Challengers Bangalore (2018, Match 39)
+○	Predicted score: 146/10
+3.	Mumbai Indians vs. Kings XI Punjab (2019, Match 59 - Eliminator)
+○	Predicted score: 186/8
+4.	Rajasthan Royals vs. Chennai Super Kings (2019, Match 25)
+○	Predicted score: 151/7
+
+
+
