@@ -111,3 +111,18 @@ The model makes predictions for various matches in IPL seasons 11 and 12, such a
 
 
 
+## 7. Conclusion and Future Work
+### 7.1 Conclusion
+●	The project successfully builds a predictive model for IPL scores based on various match-related features.
+
+●	Linear Regression provided the best performance in predicting the score compared to other models.
+
+### 7.2 Future Work
+●	Model Improvement: Further optimization of the model, such as feature engineering and hyperparameter tuning, could potentially improve the accuracy.
+
+●	More Data: Including more data from newer IPL seasons could help the model generalize better.
+
+●	Other Models: Experimenting with advanced machine learning models such as XGBoost or Neural Networks might further enhance prediction accuracy.
+
+
+
