@@ -51,4 +51,23 @@ The dataset used for this project is an IPL dataset (ipl.csv) containing match s
 ●	The data is split into a training set (seasons 1-9, i.e., 2008-2016) and a test set (season 10, i.e., 2017). This ensures that the model is trained on historical data and tested on more recent data.
 
 
+## 4. Model Building
+### 4.1 Models Used
+The following regression models are used to predict the IPL match scores:
+●	Linear Regression
+
+●	Decision Tree Regression
+
+●	Random Forest Regression
+
+●	AdaBoost Regressor (with Linear Regression as the base learner)
+
+### 4.2 Model Training and Evaluation
+●	The models are trained using the training dataset and evaluated using the test dataset.
+
+●	The evaluation metrics include: ○	Mean Absolute Error (MAE) ○	Mean Squared Error (MSE) ○	Root Mean Squared Error (RMSE)
+
+### 4.3 Model Comparison
+●	After evaluating the models, it was found that Linear Regression outperformed other models, with the lowest error metrics.
+
 
